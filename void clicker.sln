@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1231
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "void client", "void client\void client.csproj", "{1C34E27B-37C2-4407-98FA-81E9E3CFD5FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "void clicker", "void client\void clicker.csproj", "{1C34E27B-37C2-4407-98FA-81E9E3CFD5FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
