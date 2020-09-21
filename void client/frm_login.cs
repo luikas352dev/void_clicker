@@ -23,6 +23,22 @@ namespace void_client
         {
             if (login.sign_in(txt_user.Text, txt_pass.Text, our_hwid))
             {
+                // dispose elements
+
+                lb_logo.Text = null;
+                lb_pass.Text = null;
+                lb_username.Text = null;
+                txt_user.Text = null;
+                txt_pass.Text = null;
+                btn_login.Text = null;
+
+                lb_logo.Dispose();
+                lb_pass.Dispose();
+                lb_username.Dispose();
+                txt_user.Dispose();
+                txt_pass.Dispose();
+                btn_login.Dispose();
+                pn_bottom.Dispose();
                 this.Hide();
             }
         }

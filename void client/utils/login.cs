@@ -19,9 +19,9 @@ namespace void_client.utils
             }
             // auth
             {
-                // autenticar - depois
+                // do your auth code
             }
-            warning.warn("Autenticado, redirecionando...", 2, 2000);
+            warning.warn("Authenticated, redirecting...", 2, 2000);
             util.wait_non_async(2200);
             new frm_clicker(username).Show();
             return true;
